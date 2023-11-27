@@ -11,4 +11,3 @@ typechain/
 coverage/
 sdk/tsconfig.tsbuildinfo
 sdk/dist/
-envs/
