@@ -74,7 +74,7 @@ const config: HardhatUserConfig = {
         .toNumber(),
     },
     4: {
-      url: `https://rinkeby.infura.io/v3/${process.env.RINKEBY_INFURA}`,
+      url: `https://eth-sepolia.g.alchemy.com/v2/${process.env.RINKEBY_INFURA}`,
       accounts,
       timeout: 60000,
       gasPrice: BigNumber.from(gasPrice)
